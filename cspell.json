@@ -1,0 +1,69 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "nestjs",
+    "fastify",
+    "typeorm",
+    "dto",
+    "bcrypt",
+    "pnpm",
+    "commitlint",
+    "sonarjs",
+    "csrf",
+    "datasource",
+    "nullable",
+    "timestamps",
+    "upsert",
+    "webhook",
+    "whitelist",
+    "tsconfig",
+    "eslint",
+    "joi",
+    "uuid",
+    "cors",
+    "jwt",
+    "auth",
+    "signup",
+    "login",
+    "middleware",
+    "interceptor",
+    "backend",
+    "nfg",
+    "configs",
+    "devops",
+    "prisma",
+    "postgres",
+    "enum",
+    "interface",
+    "validator",
+    "transformer",
+    "blacklist",
+    "Kamil",
+    "Myśliwiec",
+    "nestframework"
+  ],
+  "ignorePaths": [
+    "node_modules",
+    "dist",
+    "coverage",
+    "pnpm-lock.yaml",
+    "*.log",
+    ".git",
+    ".husky",
+    "*.min.js",
+    "*.min.css",
+    "**/*.md"
+  ],
+  "ignoreWords": ["todos", "vars", "vals", "inlined", "uncomment"],
+  "patterns": [
+    {
+      "name": "inline-code",
+      "pattern": "/`[^`]*`/g"
+    },
+    {
+      "name": "urls",
+      "pattern": "/https?:\\/\\/[^\\s]*/g"
+    }
+  ]
+}

@@ -3,6 +3,7 @@ import {
   NestFastifyApplication,
 } from '@nestjs/platform-fastify';
 import { Test, TestingModule } from '@nestjs/testing';
+
 import { AppModule } from './../src/app.module';
 
 describe('AppController (e2e)', () => {
