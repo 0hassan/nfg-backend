@@ -132,7 +132,7 @@ jobs:
           JWT_REFRESH_SECRET: test-jwt-refresh-secret-key-for-testing-only
 
       - name: Upload coverage reports
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v5
         if: matrix.node-version == '18.x'
         with:
           file: ./coverage/lcov.info
