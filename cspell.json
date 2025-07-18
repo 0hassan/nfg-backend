@@ -41,7 +41,12 @@
     "blacklist",
     "Kamil",
     "Myśliwiec",
-    "nestframework"
+    "nestframework",
+    "testuser",
+    "testpass",
+    "testdb",
+    "isready",
+    "unittests"
   ],
   "ignorePaths": [
     "node_modules",
